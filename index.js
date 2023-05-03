@@ -35,6 +35,7 @@ factorialFlecha()
 let fibUno = 0;
 let fibDos = 1;
 let fiboS = [];
+//numero de veces que se ejecuta el programa
 let fibo=20;
 
 
@@ -48,3 +49,17 @@ let fibof = () => {
 } 
 }
 fibof()
+
+let palindromo = () =>{
+  let palabra = "oto"
+  let palabraReves=[...palabra].reverse().join("");
+
+  if(palabra===palabraReves){
+    console.log("es un palindromo")
+  }else{
+      console.log("no un palindromo")
+  }
+}
+
+
+palindromo();
